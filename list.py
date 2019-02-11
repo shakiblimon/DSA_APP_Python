@@ -92,3 +92,33 @@ class LinkedList:
             new_node = Node(data)
             new_node.ref = n.ref
             n.ref = new_node
+
+
+    def insert_before_intem(self,x, data):
+        """
+        :param x:
+        :param data:
+        :return:
+        """
+        if self.start_node is None:
+            print("list has no element")
+            return
+        if x ==self.start_node.item:
+            new_node = Node(data)
+            new_node.ref = self.start_node
+            self.start_node = new_node
+            return
+
+        n = self.start_node.item
+        print(n.ref)
+
+        while n.ref is not None:
+            if n.ref.item ==x:
+                break
+            n = n.ref
+        if n.ref is None:
+            print("Item not in list")
+        else:
+            new_node = Node(data)
+            new_node.ref = n.ref
+            n.ref = new_node
