@@ -14,10 +14,20 @@ root.maxsize(width=300, height=300)
 
 
 simple_label = tkinter.Label(root, text="Hello ! Whats up?")
-close_button = tkinter.Button(root, text ="Close", command =root.destroy)
+another_label = tkinter.Label(root , text = "More Text")
 
-simple_label.pack()
-close_button.pack()
+close_button = tkinter.Button(root, text ="Close", command =root.destroy)
+another_button = tkinter.Button(root, text = "Do Nothing")
+
+
+simple_label.grid(column=0, row=0, sticky="ew")
+another_label.grid(column=0, row=1, sticky="ew")
+
+close_button.grid(column=1, row=0, sticky="ew")
+another_button.grid(column=1, row=1 , sticky="ew")
+
+# simple_label.pack()
+# close_button.pack()
 
 
 root.mainloop()
