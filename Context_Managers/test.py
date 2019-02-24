@@ -9,6 +9,21 @@ class FileManager:
     def __exit__(self, *exc):
         self.open_file.close()
 
-with FileManager('readme.txt') as file:
-    text = file.read()
+# with FileManager('readme.txt') as file:
+#     text = file.read()
+#     print(text)
+
+
+'''
+        Using Context Managers
+'''
+# file  = FileManager('readme.txt')
+# with file as managed_file:
+#     text = managed_file.read()
+#     print(text)
+
+### Another way
+
+with FileManager('readme.txt') as managed_file:
+    text = managed_file.read()
     print(text)
