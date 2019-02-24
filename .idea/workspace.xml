@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc2b6194-a6d6-461c-95ff-298579d8d091" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GUI/gui_dev.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/gui_dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/gui_dev.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/bin/pip3.6" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3.6" afterDir="false" />
@@ -313,7 +313,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DSA_Python$list.coverage" NAME="list Coverage Results" MODIFIED="1549872059095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DSA_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1550990288870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Context_Managers" />
-    <SUITE FILE_PATH="coverage/DSA_APP_Python$gui_dev.coverage" NAME="gui_dev Coverage Results" MODIFIED="1550992846485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/DSA_APP_Python$gui_dev.coverage" NAME="gui_dev Coverage Results" MODIFIED="1550993895523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -347,8 +347,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GUI/gui_dev.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="357">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -680,7 +680,7 @@
       <option name="presentableId" value="Default" />
       <updated>1549865389425</updated>
       <workItem from="1549865391183" duration="4634000" />
-      <workItem from="1550988345214" duration="4515000" />
+      <workItem from="1550988345214" duration="5525000" />
     </task>
     <task id="LOCAL-00001" summary="Single Linked List Implemeted">
       <created>1549872112326</created>
@@ -724,11 +724,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550991537037</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Controlling the Window's Size">
+      <created>1550992894679</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550992894679</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Widget orientation">
+      <created>1550993550729</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550993550729</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9149000" />
+    <option name="totallyTimeSpent" value="10159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-4" width="1600" height="904" extended-state="6" />
@@ -766,7 +780,9 @@
     <MESSAGE value="Implementing Context Managers" />
     <MESSAGE value="Using Context Managers" />
     <MESSAGE value="Readme.txt updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme.txt updated" />
+    <MESSAGE value="Controlling the Window's Size" />
+    <MESSAGE value="Widget orientation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Widget orientation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/list.py">
@@ -805,8 +821,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI/gui_dev.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="357">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
         </state>
       </provider>
     </entry>
