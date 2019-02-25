@@ -27,6 +27,20 @@ class Prograssion:
         print(''.join(str(next(self)) for j in range(n)))
 
 
+
+'''
+        Arithmetic Progression
+'''
+
+class ArithmeticProgression(Prograssion):
+    def init (self, increment=1, start=0):
+        super( ). init (start)
+        self. increment = increment
+
+    def advance(self):
+        self. current += self. increment
+
+
 '''
         A Geometric Progression Class
 '''
@@ -61,3 +75,6 @@ class FibonacciProgression(Prograssion):
 if __name__ == '__main__':
     print('Default prograssion: ')
     Prograssion().print_progression(10)
+
+    print('Arithmetic prograssion with increment 5 is: ')
+    ArithmeticProgression().print_progression(10)
