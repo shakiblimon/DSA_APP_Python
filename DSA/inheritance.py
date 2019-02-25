@@ -25,3 +25,16 @@ class Prograssion:
 
     def print_progression(self, n):
         print(''.join(str(next(self)) for j in range(n)))
+
+
+'''
+        A Geometric Progression Class
+'''
+
+class GeometricProgression(Prograssion):
+    def __init__(self, base =2, start=1):
+        super().__init__(start)
+        self._base = base
+
+    def _advance(self):
+        self._current *=self._base
