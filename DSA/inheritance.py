@@ -52,3 +52,12 @@ class FibonacciProgression(Prograssion):
 
     def _advance(self):
         self._prev, self._current = self._current, self._prev+ self._current
+
+
+'''
+        Testing Progression Now
+'''
+
+if __name__ == '__main__':
+    print('Default prograssion: ')
+    Prograssion().print_progression(10)
