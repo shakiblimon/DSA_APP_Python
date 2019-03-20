@@ -12,7 +12,7 @@ def on_connect():
 @sio.on('my message')
 def on_message(data):
     print('message received with ', data)
-    sio.emit('my resonse',{'response': 'my reseponse'})
+    sio.emit('my response',{'response': 'my response'})
 
 @sio.on('disconnect')
 def on_disconnect():
