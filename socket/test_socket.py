@@ -1,3 +1,6 @@
+__author__ ='Shakib Limon'
+__version__ = '1.0.0'
+
 import socketio
 
 sio = socketio.Client()
@@ -13,4 +16,7 @@ def on_message(data):
 
 @sio.on('disconnect')
 def on_disconnect():
-    print()
+    print('disconnected from server')
+
+sio.connect('http://localhost:5000')
+sio.wait()
