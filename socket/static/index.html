@@ -1,10 +1,11 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Python Socket IO</title>
+    <title>Document</title>
   </head>
   <body>
     <button onClick="sendMsg()">Hit Me</button>
@@ -15,10 +16,6 @@
 
       function sendMsg() {
         socket.emit("message", "HELLO WORLD");
-        socket.on('message', function (data) {
-          console.log(data)
-
-        })
       }
     </script>
   </body>
